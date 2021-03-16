@@ -25,6 +25,10 @@ Working on behalf of the non-profit foundation AlphabetSoup we created binary cl
 
 ## Summary
 
+Disappointingly the target accuracy was not acheived through substantial manipulation of the nueural network's arrangement. In future tests I suggest a more thourough cleaning onf the dataset. It's possible that some superfluous elements still remain and are affecting the success rate of our model.
+
+
+
 
 
 
