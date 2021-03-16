@@ -21,7 +21,7 @@ Working on behalf of the non-profit foundation AlphabetSoup we created binary cl
 
 - Target model perfomance acheived: No. The Target accuracy is 75.0%. The initial trial was only able to achieve 72.6% accuracy and successive ooptimization attempts only resulted in 73-74% accuracy.
 
-- Steps to increase model performance: During optimization trials I added neurons, hidden layers, and activation funtions. The final trial had 600 neurons and 7 hidden layers with "relu", "sigmoid", and "tanh" activation functions. Creading a more complex system seems to have positive effects on the accuracy, if not incredible transformative effects. A callback
+- Steps to increase model performance: During optimization trials I added neurons, hidden layers, and activation funtions. The final trial had 600 neurons and 7 hidden layers with "relu", "sigmoid", and "tanh" activation functions. Creading a more complex system seems to have positive effects on the accuracy, if not incredible transformative effects. A checkpoint system was implemented "ModelCheckpoint" from the tensorflow.keras library. The purposebing to save the model weights after it tests a set number of data points then, at any point, then reload the checkpoint weights and resume model training. After which we achieved marginally higher accuracy from the model.
 
 ## Summary
 
