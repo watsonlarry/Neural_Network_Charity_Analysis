@@ -16,11 +16,15 @@ Working on behalf of the non-profit foundation AlphabetSoup we created binary cl
 
 ### Compiling, Training, and Evaluating the Model
 
-- Neurons, layers, and activation functions selected for neural network model:
+- Neurons, layers, and activation functions selected for neural network model: the initial testing was built w/ 120 nuerons across two hidden layers, with "relu"
+& "sigmoid" activation functions. 
 
-- Target model perfomance acheived:
+- Target model perfomance acheived: No. The Target accuracy is 75.0%. The initial trial was only able to achieve 72.6% accuracy and successive ooptimization attempts only resulted in 73-74% accuracy.
 
-- Steps to increase model performance:
+- Steps to increase model performance: During optimization trials I added neurons, hidden layers, and activation funtions. The final trial had 600 neurons and 7 hidden layers with "relu", "sigmoid", and "tanh" activation functions. Creading a more complex system seems to have positive effects on the accuracy, if not incredible transformative effects. A callback
+
+## Summary
+
 
 
 
